@@ -19,37 +19,37 @@ export default function CardContainer() {
   return (
     <div className="w-full mt-[10px] grid grid-cols-2 grid-rows-[160px_160px_160px] gap-x-6 md:grid-cols-3 md:grid-rows-[220px_220px]">
       <CardDesign
-        photo={"/recursos/images/photo1.png"}
+        photo={"/new_team_page_project/recursos/images/photo1.png"}
         name={"Bill Mahoney"}
         role={"PRODUCT OWNER"}
         offset={false}
       />
       <CardDesign
-        photo={"/recursos/images/photo2.png"}
+        photo={"/new_team_page_project/recursos/images/photo2.png"}
         name={"Saba Cabrera"}
         role={"ART DIRECTOR"}
         offset={true}
       />
       <CardDesign
-        photo={"/recursos/images/photo3.png"}
+        photo={"/new_team_page_project/recursos/images/photo3.png"}
         name={"Shae Le"}
         role={"TECH HEAD"}
         offset={false}
       />
       <CardDesign
-        photo={"/recursos/images/photo4.png"}
+        photo={"/new_team_page_project/recursos/images/photo4.png"}
         name={"Skylah Lu"}
         role={"UX DESIGNER"}
         offset={screenSize < 768 ? true : false}
       />
       <CardDesign
-        photo={"/recursos/images/photo5.png"}
+        photo={"/new_team_page_project/recursos/images/photo5.png"}
         name={"Griff Richards"}
         role={"DEVELOPER"}
         offset={screenSize < 768 ? false : true}
       />
       <CardDesign
-        photo={"/recursos/images/photo6.png"}
+        photo={"/new_team_page_project/recursos/images/photo6.png"}
         name={"Stan John"}
         role={"DEVELOPER"}
         offset={screenSize < 768 ? true : false}
