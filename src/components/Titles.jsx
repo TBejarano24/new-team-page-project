@@ -13,13 +13,13 @@ export default function Titles() {
           <button onClick={handleClick} className="hover:cursor-pointer">
             <img
               className="block dark:hidden"
-              src="/new_team_page_project/moon.svg"
+              src="/new-team-page-project/moon.svg"
               alt="moon icon"
               width={"26px"}
             />
             <img
               className="hidden dark:block"
-              src="/new_team_page_project/brightness-high.svg"
+              src="/new-team-page-project/brightness-high.svg"
               alt="moon icon"
               width={"26px"}
             />
